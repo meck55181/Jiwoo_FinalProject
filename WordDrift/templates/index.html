@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign to Braille</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script type="module" src="{{ url_for('static', filename='app.mjs') }}"></script>
+</head>
+<body>
+  <main class="page">
+    <section class="results">
+      <div class="label">CURRENT SIGN</div>
+      <div id="prediction">-</div>
+      <div class="label">SENTENCE</div>
+      <div id="sentence"></div>
+      <div class="label">BRAILLE</div>
+      <canvas id="braille" role="img" aria-label="인식한 문자의 점자"></canvas>
+      <div class="sensor">
+        <button id="connect" type="button">센서 연결</button>
+        <span id="distance" role="status">미연결</span>
+      </div>
+    </section>
+    <section class="camera">
+      <div class="label">CAMERA</div>
+      <div class="camera-frame">
+        <img id="camera-feed" src="/video_feed" alt="Camera feed">
+      </div>
+      <p id="camera-status" role="status"></p>
+    </section>
+  </main>
+</body>
+</html>
