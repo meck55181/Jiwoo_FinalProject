@@ -86,11 +86,11 @@ With more time, I would test the recognizer with more users and lighting conditi
 
 ## Documentation
 
-[!close-image](documentation/final-photo1.png)
-[!far-image](documentation/final-photo2.png)
+[close-image](documentation/final-photo1.png)
+[far-image](documentation/final-photo2.png)
 
-[!full-video](documentation/final-video1.mp4)
-[!screen-recording](documentation/final-video2.mp4)
+[full-video](documentation/final-video1.mp4)
+[screen-recording](documentation/final-video2.mp4)
 
 ## Attribution
 
